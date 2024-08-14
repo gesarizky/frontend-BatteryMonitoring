@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* custom */
+/* .nav-item a:hover {
+   color: red !important;
+} */
+
+.sidebar ul li:hover {
+  background-color: gray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sidebar ul li a:hover {
+  color: white !important;
+}
+
+.sidebar .active {
+  background-color: gray;
+  border-radius: 5px;
+  color: white !important;
+}
+
+.justify-icon {
+  margin-left: 5px;
+}
+
+.nav-margin {
+  margin-top: 5px;
+}
+
+.nav-margin a {
+  margin-left: 5px;
+}
+
+.button-margin {
+  margin-top: 10px !important;
+}
+
+.button-charge-change {
+  float: inline-end;
+}
+
+.invisible-button {
+  display: none;
+}
+
+.drop-down-bg {
+  background-color: black;
+}
+
+.marg-top {
+  margin-top: 10px !important;
+}
+
+.img-centered-view {
+  /* position: fixed; */
+  width: 80% !important;
+  height: auto !important;
+  margin-top: 25% !important;
+  margin-left: 50% !important;
+
+  transform: translate(-50%, -50%);
+}
+
+.invisible-div {
+  display: none;
+}
+
+.table-center {
+  text-align: center !important;
+}
