@@ -25,7 +25,7 @@ function Sidebar() {
       <div>
         <span className="text-white text-decoration-none p-3">
           <i className="bi bi-battery-charging fs-4 me-4"></i>
-          <span className="fs-3">CHARGING</span>
+          <span className="fs-3">Battery System</span>
         </span>
 
         <hr className="text-white mt-2" />
